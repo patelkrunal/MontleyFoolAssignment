@@ -19,7 +19,7 @@ $json_op = json_decode($json,true);
 
 <html>
 <head>
-    <title>Resume Krunal Patel</title>
+    <title>MontleyFoolAssignment</title>
     <link rel="stylesheet" type="text/css" href="grid.css">
     <style type="text/css">
         #temperature
@@ -58,7 +58,7 @@ document.getElementById("body_id").style.backgroundImage="url('<?php echo $image
     <div class="container_12">
         <div class="grid_12">
             <div class="grid_4 push_4">
-                <p id="temperature"><?php echo $json_op["data"]["current_condition"][0]["temp_C"]."°C"; ?></p>
+                <p id="temperature"><?php echo $json_op["data"]["current_condition"][0]["temp_C"]."ï¿½C"; ?></p>
             </div>
             
         </div>
